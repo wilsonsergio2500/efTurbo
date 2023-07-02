@@ -1,4 +1,5 @@
-﻿using EF.Turbo.Repo.Core.Interfaces;
+﻿using Xunit;
+using EF.Turbo.Repo.Core.Interfaces;
 using Example.Repo.Core;
 using Example.Repo.Core.Entity;
 using Example.Repo.Integration.Helpers.Specs.Person;

@@ -11,7 +11,8 @@ namespace Example.Repo.Integration
         {
             IServiceCollection services = new ServiceCollection();
 
-            services.AddDbContext<ExampleDbContext>(options => options.UseSqlServer("Data Source=20.241.3.231\\FPT;Initial Catalog=Reach;User ID=newlogin2;Password=test123$"));
+            //services.AddDbContext<ExampleDbContext>(options => options.UseSqlServer(""));
+            services.AddDbContext<ExampleDbContext>(options => options.UseInMemoryDatabase("integration-db"));
             services.AddExampleRepoModule();
 
             serviceProvider = services.BuildServiceProvider();

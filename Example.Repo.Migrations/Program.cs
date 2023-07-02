@@ -11,7 +11,8 @@ public class Program
         => Host.CreateDefaultBuilder(args)
             .ConfigureServices(services =>
             {
-                services.AddDbContext<ExampleDbContext>(options => options.UseSqlServer("Data Source=20.241.3.231\\FPT;Initial Catalog=Reach;User ID=newlogin2;Password=test123$"));
+                // uncomment if testing with a real database
+                //services.AddDbContext<ExampleDbContext>(options => options.UseSqlServer(""));
             });
 
 }

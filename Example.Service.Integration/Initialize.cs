@@ -1,8 +1,7 @@
-﻿using Example.Repo.Core;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Example.Repo;
 using System.Diagnostics;
+using Example.Service.Core.Data;
 
 namespace Example.Service.Integration
 {

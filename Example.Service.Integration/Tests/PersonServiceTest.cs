@@ -1,7 +1,7 @@
 ﻿using Xunit;
 using EF.Turbo.Service.Core.Interfaces;
-using Example.Repo.Core;
-using Example.Repo.Core.Entity;
+using Example.Service.Core.Data;
+using Example.Service.Core.Data.Entity;
 using Example.Service.Core.DTOs;
 using FluentAssertions;
 using static Example.Service.Integration.Initialize;

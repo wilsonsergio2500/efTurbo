@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Example.Repo.Core.Entity;
+using Example.Service.Core.Data.Entity;
 using Example.Service.Core.DTOs;
 
 namespace Example.Service.Core.Mappers
@@ -9,7 +9,6 @@ namespace Example.Service.Core.Mappers
         public MappingProfile() 
         {
             CreateMap<PersonEntity, PersonDTO>().ReverseMap();
-            CreateMap<OrganizationEntity, OrganizationDTO>().ReverseMap();
         }
     }
 }

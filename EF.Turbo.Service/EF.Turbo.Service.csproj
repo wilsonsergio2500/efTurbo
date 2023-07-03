@@ -15,13 +15,9 @@
 
 
 	<ItemGroup>
-		<PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="6.1.0" />
+		<!--<PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="6.1.0" />-->
 		<PackageReference Include="AutoMapper" Version="11.0.0" />
-	</ItemGroup>
-
-
-	<ItemGroup>
-	  <ProjectReference Include="..\EF.Turbo.Repo\EF.Turbo.Repo.csproj" />
+		<PackageReference Include="EF.Turbo.Repo" Version="6.0.0" />
 	</ItemGroup>
 
 

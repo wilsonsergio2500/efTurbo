@@ -2,8 +2,8 @@
 using EF.Turbo.Repo.Core.Interfaces;
 using EF.Turbo.Service.Core.Interfaces;
 using EF.Turbo.Service.Core.Service;
-using Example.Repo.Core;
-using Example.Repo.Core.Entity;
+using Example.Service.Core.Data;
+using Example.Service.Core.Data.Entity;
 using Example.Service.Core.DTOs;
 
 namespace Example.Service.Core.Services

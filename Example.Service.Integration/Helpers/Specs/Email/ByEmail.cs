@@ -1,5 +1,5 @@
 ﻿using Ardalis.Specification;
-using Example.Repo.Core.Entity;
+using Example.Service.Core.Data.Entity;
 
 namespace Example.Service.Integration.Helpers.Specs.Email
 {

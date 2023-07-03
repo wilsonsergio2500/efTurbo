@@ -23,9 +23,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Repo.Integration", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Repo.Migrations", "Example.Repo.Migrations\Example.Repo.Migrations.csproj", "{CB862B7D-7169-4D46-8155-E65C931F1D09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Service.Integration", "Example.Service.Integration\Example.Service.Integration.csproj", "{666D94AB-2DF4-49E7-87D7-47A667BC82BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Service.Integration", "Example.Service.Integration\Example.Service.Integration.csproj", "{666D94AB-2DF4-49E7-87D7-47A667BC82BF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{1A8F8313-B7E3-476B-A88A-B530FD73D6FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{CCA50C1B-9A15-401B-A99A-D2DF3724F48D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github", "Github", "{86461DF0-A1A1-402B-82F2-853E7D610CC6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +82,7 @@ Global
 		{CB862B7D-7169-4D46-8155-E65C931F1D09} = {1A8F8313-B7E3-476B-A88A-B530FD73D6FE}
 		{666D94AB-2DF4-49E7-87D7-47A667BC82BF} = {DF57CCE2-64A9-4C5C-9FC6-62607E8A236D}
 		{1A8F8313-B7E3-476B-A88A-B530FD73D6FE} = {F8AB8D19-80F0-4E4D-872B-4DBA190B7ABF}
+		{86461DF0-A1A1-402B-82F2-853E7D610CC6} = {CCA50C1B-9A15-401B-A99A-D2DF3724F48D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6DA70420-D359-4FB3-9D10-B1A89B5425C5}

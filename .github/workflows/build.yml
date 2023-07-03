@@ -24,13 +24,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+            dotnet-version: 6.0.x
+      - name: Build
+        run: dotnet build --configuration Release
+      - name: Repo Integration Test
+        run: dotnet test Example.Repo.Integration/Example.Repo.Integration.csproj
+      - name: Service Integration Test
+        run: dotnet test Example.Service.Integration/Example.Service.Integration.csproj

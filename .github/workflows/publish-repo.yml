@@ -15,7 +15,7 @@ jobs:
       - name: Repo Integration Test
         run: dotnet test Example.Repo.Integration/Example.Repo.Integration.csproj
       - name: publish on version change
-        uses: rohith/publish-nuget@v2
+        uses: alirezanet/publish-nuget@v3.0.4
         with:
           PROJECT_FILE_PATH: EF.Turbo.Repo/EF.Turbo.Repo.csproj # Relative to repository root
           VERSION_REGEX: <Version>(.*)<\/Version> # Regex pattern to extract version info in a capturing group

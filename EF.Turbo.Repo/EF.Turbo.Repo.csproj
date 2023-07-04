@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<Authors>Sergio Wilson (@wilsonsergio)</Authors>
-	<Version>6.0.0</Version>
+	<Version>6.0.1</Version>
 	<PackageIconUrl>https://im.ages.io/c3YfIintl2</PackageIconUrl>
 	<Description>Simple and speedy but opinionated Repository pattern that integrates an enhanced query specification</Description>
 	<Summary>Simple and speedy but opinionated Repository pattern that integrates an enhanced query specification</Summary>

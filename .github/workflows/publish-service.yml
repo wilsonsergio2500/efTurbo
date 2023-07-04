@@ -15,7 +15,7 @@ jobs:
       - name: Service Integration Test
         run: dotnet test Example.Service.Integration/Example.Service.Integration.csproj
       - name: publish on version change
-        uses: alirezanet/publish-nuget@v3.0.0
+        uses: alirezanet/publish-nuget@v3.0.4
         with:
           PROJECT_FILE_PATH: EF.Turbo.Service/EF.Turbo.Service.csproj # Relative to repository root
           VERSION_REGEX: <Version>(.*)<\/Version> # Regex pattern to extract version info in a capturing group

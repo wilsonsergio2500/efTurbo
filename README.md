@@ -101,7 +101,7 @@ namespace Customer.Service.Core.Specs.Contacts
 }
 ...
 ```
-Hence as an example we could have the following:
+Hence We could have the following:
 ```c#
 public async Task<bool> HasAnyContactWithEmail(string Email)
 {

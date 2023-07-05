@@ -3,7 +3,9 @@
 EF Turpo Repo
 </h1>
 
-[![GitHub](https://img.shields.io/github/license/wilsonsergio2500/fogo-cms?style=flat-square)](https://github.com/wilsonsergio2500/efTurbo/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/wilsonsergio2500/efTurbo?style=flat-square)](https://github.com/wilsonsergio2500/efTurbo/blob/master/LICENSE)
+![Nuget](https://img.shields.io/nuget/v/EF.Turbo.Repo?style=flat-square)
+[![Build](https://github.com/wilsonsergio2500/efTurbo/actions/workflows/build.yml/badge.svg)](https://github.com/wilsonsergio2500/efTurbo/actions/workflows/build.yml)
 
 Simple and speedy but opinionated Repository pattern with query specification.
 
